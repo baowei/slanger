@@ -33,4 +33,4 @@ RUN chmod +x  ./bin/slanger
 
 EXPOSE 4567 8080
 
-CMD bundle exec ./bin/slanger --app_key $APP_KEY --secret $APP_SECRET -r $REDIS_URL
+CMD bundle exec ./bin/slanger --app_key $APP_KEY --secret $APP_SECRET -r $REDIS_URL -v
